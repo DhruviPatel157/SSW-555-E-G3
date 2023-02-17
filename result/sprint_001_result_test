@@ -1,0 +1,284 @@
+/Users/xluthor/Academics/PycharmProjects/SSW-555-E-G3/venv/bin/python /Users/xluthor/Academics/PycharmProjects/SSW-555-E-G3/gedcom_parser.py
+Individual Summary:
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+|   ID  |         Name        | Gender |  Birthday  |  Age  | Alive |   Death    | Child | Spouse |
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+|  @I1@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |   26  |  True |     NA     |  @F1@ |   NA   |
+|  @I2@ |    Milind /Salvi/   |   M    | 1974-06-18 |   48  |  True |     NA     |  @F2@ |  @F1@  |
+|  @I3@ |  Aparna /Chaudhary/ |   F    | 1974-06-22 |   48  |  True |     NA     |  @F3@ |  @F1@  |
+|  @I4@ |    Soham /Salvi/    |   M    | 2002-04-10 |   20  |  True |     NA     |  @F1@ |  @F4@  |
+|  @I5@ |   Manohar /Salvi/   |   M    | 1952-07-14 |   70  |  True |     NA     |  @F5@ |  @F2@  |
+|  @I6@ |    Gita /Chavan/    |   F    | 1954-05-01 |   68  |  True |     NA     |  @F6@ |  @F3@  |
+|  @I7@ |    Manya /Chavan/   |   M    | 1662-02-10 |  284  | False | 1946-08-06 |   NA  |  @F6@  |
+|  @I8@ |   Bheema /Chavan/   |   F    | 1934-03-04 |   12  | False | 1946-06-10 |   NA  |  @F6@  |
+|  @I9@ | Rambhau /Chaudhary/ |   M    | 1948-09-10 |   74  |  True |     NA     |   NA  |  @F3@  |
+| @I10@ |  Savita /Chaudhary/ |   F    | 1950-05-05 |   72  |  True |     NA     |   NA  |   NA   |
+| @I11@ |   Atul /Chaudhary/  |   M    | 1976-10-04 |   46  |  True |     NA     |  @F3@ |  @F7@  |
+| @I12@ | Pratima /Chaudhary/ |   F    | 1980-07-28 |   42  |  True |     NA     |   NA  |  @F7@  |
+| @I13@ |  Vedant /Chaudhary/ |   M    | 2006-07-14 |   16  |  True |     NA     |  @F7@ |  @F8@  |
+| @I14@ |     Rayan /Rane/    |   M    | 2008-12-12 |   14  |  True |     NA     |  @F9@ |  @F8@  |
+| @I15@ |   Rina /Chaudhary/  |   F    | 1978-12-10 |   44  |  True |     NA     |  @F3@ | @F10@  |
+| @I16@ |    Deepak /Rane/    |   M    | 1978-02-02 |   45  |  True |     NA     |   NA  |  @F9@  |
+| @I17@ |     Baap /Salvi/    |   M    | 1940-09-05 |   61  | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |    Asana /Salvi/    |   F    | 1945-03-04 |   60  | False | 2005-05-11 |   NA  |  @F5@  |
+| @I19@ |   Rajaram /Salvi/   |   M    | 1950-11-20 |   72  |  True |     NA     |  @F5@ | @F12@  |
+| @I20@ |    Meenal /Salvi/   |   F    | 1968-11-25 |   54  |  True |     NA     |   NA  | @F11@  |
+| @I21@ |  Shashikala /Patil/ |   F    | 1964-07-05 |   58  |  True |     NA     |   NA  | @F12@  |
+| @I22@ |    Aditya /Salvi/   |   M    | 1970-04-19 |   35  | False | 2006-02-04 | @F12@ | @F13@  |
+| @I23@ |    Harsh /Salvi/    |   M    | 2000-09-09 |   22  |  True |     NA     | @F13@ |   NA   |
+| @I24@ |  Meenakshi /Salvi/  |   F    | 1970-06-17 |   52  |  True |     NA     |   NA  | @F13@  |
+| @I25@ |   Pritisha /Salvi/  |   F    | 1992-07-04 |   30  |  True |     NA     | @F13@ | @F14@  |
+| @I26@ |    Nikhil /Mali/    |   M    | 1992-10-06 |   30  |  True |     NA     |   NA  | @F14@  |
+| @I27@ |    Disha /Salvi/    |   F    | 1990-08-21 |   32  |  True |     NA     | @F13@ |   NA   |
+| @I28@ |    Rahul /Salvi/    |   M    | 1988-07-10 |   34  |  True |     NA     | @F11@ |   NA   |
+| @I29@ |   Priyanka /Salvi/  |   F    | 1985-08-16 |   37  |  True |     NA     | @F11@ |   NA   |
+| @I30@ |   Manisha /Salvi/   |   F    | 1960-05-08 |   62  |  True |     NA     |  @F5@ | @F16@  |
+| @I31@ |     Manoj /Dave/    |   M    | 9999-01-01 | -7982 |  True |     NA     |   NA  | @F15@  |
+| @I32@ |   Pramod /Mathur/   |   M    | 9999-01-01 |   0   | False | 9999-01-01 |   NA  | @F16@  |
+| @I33@ |    Dyuti /Mathur/   |   F    | 1980-06-07 |   42  |  True |     NA     | @F16@ |   NA   |
+| @I34@ |    Dishti /Dave/    |   F    | 1989-08-06 |   33  |  True |     NA     | @F15@ | @F10@  |
+| @I35@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |   26  |  True |     NA     |  @F1@ |   NA   |
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+Family Summary:
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+|   ID  |  Married   | Divorced | Husband ID |     Husband Name    | Wife ID |      Wife Name      |           Children          |
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+|  @F1@ | 1999-04-01 |  False   |    @I2@    |    Milind /Salvi/   |   @I3@  |  Aparna /Chaudhary/ |  ['@I1@', '@I4@', '@I35@']  |
+|  @F2@ | 1977-03-01 |  False   |    @I5@    |   Manohar /Salvi/   |   @I6@  |    Gita /Chavan/    |           ['@I2@']          |
+|  @F3@ | 1973-04-01 |  False   |    @I9@    | Rambhau /Chaudhary/ |   @I6@  |    Gita /Chavan/    |  ['@I3@', '@I11@', '@I15@'] |
+|  @F4@ | 9999-01-01 |  False   |   @I13@    |  Vedant /Chaudhary/ |   @I4@  |    Soham /Salvi/    |              []             |
+|  @F5@ | 1965-04-01 |  False   |   @I17@    |     Baap /Salvi/    |  @I18@  |    Asana /Salvi/    |  ['@I5@', '@I19@', '@I30@'] |
+|  @F6@ | 1947-04-01 |  False   |    @I7@    |    Manya /Chavan/   |   @I8@  |   Bheema /Chavan/   |           ['@I6@']          |
+|  @F7@ | 2001-04-01 |  False   |   @I11@    |   Atul /Chaudhary/  |  @I12@  | Pratima /Chaudhary/ |          ['@I13@']          |
+|  @F8@ | 9999-01-01 |  False   |   @I13@    |  Vedant /Chaudhary/ |  @I14@  |     Rayan /Rane/    |              []             |
+|  @F9@ | 2003-04-01 |  False   |   @I16@    |    Deepak /Rane/    |  @I15@  |   Rina /Chaudhary/  |          ['@I14@']          |
+| @F10@ |     NA     |  False   |   @I34@    |    Dishti /Dave/    |  @I15@  |   Rina /Chaudhary/  |              []             |
+| @F11@ |     NA     |  False   |   @I19@    |   Rajaram /Salvi/   |  @I20@  |    Meenal /Salvi/   |      ['@I28@', '@I29@']     |
+| @F12@ |     NA     |  False   |   @I19@    |   Rajaram /Salvi/   |  @I21@  |  Shashikala /Patil/ |          ['@I22@']          |
+| @F13@ | 1995-04-01 |  False   |   @I22@    |    Aditya /Salvi/   |  @I24@  |  Meenakshi /Salvi/  | ['@I23@', '@I25@', '@I27@'] |
+| @F14@ | 2018-04-01 |  False   |   @I26@    |    Nikhil /Mali/    |  @I25@  |   Pritisha /Salvi/  |              []             |
+| @F15@ | 2005-04-02 |   True   |   @I31@    |     Manoj /Dave/    |  @I30@  |   Manisha /Salvi/   |          ['@I34@']          |
+| @F16@ | 2010-04-02 |   True   |   @I32@    |   Pramod /Mathur/   |  @I30@  |   Manisha /Salvi/   |          ['@I33@']          |
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+Include Input Line Numbers:
++-------+---------------------+--------------------------------------------------------------------------------------------+
+|   ID  |         Name        |                                        Source Lines                                        |
++-------+---------------------+--------------------------------------------------------------------------------------------+
+|  @I1@ |    Mrunal /Salvi/   |                {'INDI': 14, 'NAME': 15, 'SEX': 19, 'BIRT': 21, 'FAMC': 22}                 |
+|  @I2@ |    Milind /Salvi/   |          {'INDI': 23, 'NAME': 24, 'SEX': 28, 'BIRT': 30, 'FAMS': 31, 'FAMC': 32}           |
+|  @I3@ |  Aparna /Chaudhary/ |          {'INDI': 33, 'NAME': 34, 'SEX': 38, 'BIRT': 40, 'FAMS': 41, 'FAMC': 42}           |
+|  @I4@ |    Soham /Salvi/    |          {'INDI': 43, 'NAME': 44, 'SEX': 48, 'BIRT': 50, 'FAMS': 51, 'FAMC': 52}           |
+|  @I5@ |   Manohar /Salvi/   |          {'INDI': 53, 'NAME': 54, 'SEX': 58, 'BIRT': 60, 'FAMS': 61, 'FAMC': 62}           |
+|  @I6@ |    Gita /Chavan/    |          {'INDI': 63, 'NAME': 64, 'SEX': 68, 'BIRT': 70, 'FAMS': 72, 'FAMC': 73}           |
+|  @I7@ |    Manya /Chavan/   |          {'INDI': 74, 'NAME': 75, 'SEX': 79, 'BIRT': 81, 'DEAT': 83, 'FAMS': 84}           |
+|  @I8@ |   Bheema /Chavan/   |          {'INDI': 85, 'NAME': 86, 'SEX': 90, 'BIRT': 92, 'DEAT': 94, 'FAMS': 95}           |
+|  @I9@ | Rambhau /Chaudhary/ |               {'INDI': 96, 'NAME': 97, 'SEX': 101, 'BIRT': 103, 'FAMS': 104}               |
+| @I10@ |  Savita /Chaudhary/ |                    {'INDI': 105, 'NAME': 106, 'SEX': 110, 'BIRT': 112}                     |
+| @I11@ |   Atul /Chaudhary/  |       {'INDI': 113, 'NAME': 114, 'SEX': 118, 'BIRT': 120, 'FAMS': 121, 'FAMC': 122}        |
+| @I12@ | Pratima /Chaudhary/ |              {'INDI': 123, 'NAME': 124, 'SEX': 128, 'BIRT': 130, 'FAMS': 131}              |
+| @I13@ |  Vedant /Chaudhary/ |       {'INDI': 132, 'NAME': 133, 'SEX': 137, 'BIRT': 139, 'FAMS': 141, 'FAMC': 142}        |
+| @I14@ |     Rayan /Rane/    |       {'INDI': 143, 'NAME': 144, 'SEX': 148, 'BIRT': 150, 'FAMS': 151, 'FAMC': 152}        |
+| @I15@ |   Rina /Chaudhary/  |       {'INDI': 153, 'NAME': 154, 'SEX': 158, 'BIRT': 160, 'FAMS': 162, 'FAMC': 163}        |
+| @I16@ |    Deepak /Rane/    |              {'INDI': 164, 'NAME': 165, 'SEX': 169, 'BIRT': 171, 'FAMS': 172}              |
+| @I17@ |     Baap /Salvi/    |       {'INDI': 173, 'NAME': 174, 'SEX': 178, 'BIRT': 180, 'DEAT': 182, 'FAMS': 183}        |
+| @I18@ |    Asana /Salvi/    |       {'INDI': 184, 'NAME': 185, 'SEX': 189, 'BIRT': 191, 'DEAT': 193, 'FAMS': 194}        |
+| @I19@ |   Rajaram /Salvi/   |       {'INDI': 195, 'NAME': 196, 'SEX': 200, 'BIRT': 202, 'FAMS': 204, 'FAMC': 205}        |
+| @I20@ |    Meenal /Salvi/   |              {'INDI': 206, 'NAME': 207, 'SEX': 211, 'BIRT': 213, 'FAMS': 214}              |
+| @I21@ |  Shashikala /Patil/ |              {'INDI': 215, 'NAME': 216, 'SEX': 220, 'BIRT': 222, 'FAMS': 223}              |
+| @I22@ |    Aditya /Salvi/   | {'INDI': 224, 'NAME': 225, 'SEX': 229, 'BIRT': 231, 'DEAT': 233, 'FAMS': 234, 'FAMC': 235} |
+| @I23@ |    Harsh /Salvi/    |              {'INDI': 236, 'NAME': 237, 'SEX': 241, 'BIRT': 243, 'FAMC': 244}              |
+| @I24@ |  Meenakshi /Salvi/  |              {'INDI': 245, 'NAME': 246, 'SEX': 250, 'BIRT': 252, 'FAMS': 253}              |
+| @I25@ |   Pritisha /Salvi/  |       {'INDI': 254, 'NAME': 255, 'SEX': 259, 'BIRT': 261, 'FAMS': 262, 'FAMC': 263}        |
+| @I26@ |    Nikhil /Mali/    |              {'INDI': 264, 'NAME': 265, 'SEX': 269, 'BIRT': 271, 'FAMS': 272}              |
+| @I27@ |    Disha /Salvi/    |              {'INDI': 273, 'NAME': 274, 'SEX': 278, 'BIRT': 280, 'FAMC': 281}              |
+| @I28@ |    Rahul /Salvi/    |              {'INDI': 282, 'NAME': 283, 'SEX': 287, 'BIRT': 289, 'FAMC': 290}              |
+| @I29@ |   Priyanka /Salvi/  |              {'INDI': 291, 'NAME': 292, 'SEX': 296, 'BIRT': 298, 'FAMC': 299}              |
+| @I30@ |   Manisha /Salvi/   |       {'INDI': 300, 'NAME': 301, 'SEX': 305, 'BIRT': 307, 'FAMS': 309, 'FAMC': 310}        |
+| @I31@ |     Manoj /Dave/    |              {'INDI': 311, 'NAME': 312, 'SEX': 316, 'BIRT': 318, 'FAMS': 319}              |
+| @I32@ |   Pramod /Mathur/   |       {'INDI': 320, 'NAME': 321, 'SEX': 325, 'BIRT': 327, 'DEAT': 329, 'FAMS': 330}        |
+| @I33@ |    Dyuti /Mathur/   |              {'INDI': 331, 'NAME': 332, 'SEX': 336, 'BIRT': 338, 'FAMC': 339}              |
+| @I34@ |    Dishti /Dave/    |       {'INDI': 340, 'NAME': 341, 'SEX': 345, 'BIRT': 347, 'FAMS': 348, 'FAMC': 349}        |
+| @I35@ |    Mrunal /Salvi/   |              {'INDI': 350, 'NAME': 351, 'SEX': 355, 'BIRT': 357, 'FAMC': 358}              |
++-------+---------------------+--------------------------------------------------------------------------------------------+
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+|   ID  | Husband |  Wife |                                                  Source Lines                                                 |
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+|  @F1@ |   @I2@  |  @I3@ |  {'FAM': 359, 'HUSB': 360, 'WIFE': 361, 'MARR': 366, 'CHIL': [('@I1@', 362), ('@I4@', 363), ('@I35@', 364)]}  |
+|  @F2@ |   @I5@  |  @I6@ |                  {'FAM': 368, 'HUSB': 369, 'WIFE': 370, 'MARR': 373, 'CHIL': [('@I2@', 371)]}                 |
+|  @F3@ |   @I9@  |  @I6@ |  {'FAM': 375, 'HUSB': 376, 'WIFE': 377, 'MARR': 382, 'CHIL': [('@I3@', 378), ('@I11@', 379), ('@I15@', 380)]} |
+|  @F4@ |  @I13@  |  @I4@ |                        {'FAM': 386, 'HUSB': 387, 'WIFE': 388, 'MARR': 390, 'CHIL': []}                        |
+|  @F5@ |  @I17@  | @I18@ |  {'FAM': 394, 'HUSB': 395, 'WIFE': 396, 'MARR': 401, 'CHIL': [('@I5@', 397), ('@I19@', 398), ('@I30@', 399)]} |
+|  @F6@ |   @I7@  |  @I8@ |                  {'FAM': 403, 'HUSB': 404, 'WIFE': 405, 'MARR': 408, 'CHIL': [('@I6@', 406)]}                 |
+|  @F7@ |  @I11@  | @I12@ |                 {'FAM': 410, 'HUSB': 411, 'WIFE': 412, 'MARR': 415, 'CHIL': [('@I13@', 413)]}                 |
+|  @F8@ |  @I13@  | @I14@ |                        {'FAM': 417, 'HUSB': 418, 'WIFE': 419, 'MARR': 421, 'CHIL': []}                        |
+|  @F9@ |  @I16@  | @I15@ |                 {'FAM': 423, 'HUSB': 424, 'WIFE': 425, 'MARR': 428, 'CHIL': [('@I14@', 426)]}                 |
+| @F10@ |  @I34@  | @I15@ |                               {'FAM': 430, 'HUSB': 431, 'WIFE': 432, 'CHIL': []}                              |
+| @F11@ |  @I19@  | @I20@ |                {'FAM': 434, 'HUSB': 435, 'WIFE': 436, 'CHIL': [('@I28@', 437), ('@I29@', 438)]}               |
+| @F12@ |  @I19@  | @I21@ |                        {'FAM': 440, 'HUSB': 441, 'WIFE': 442, 'CHIL': [('@I22@', 443)]}                       |
+| @F13@ |  @I22@  | @I24@ | {'FAM': 445, 'HUSB': 446, 'WIFE': 447, 'MARR': 452, 'CHIL': [('@I23@', 448), ('@I25@', 449), ('@I27@', 450)]} |
+| @F14@ |  @I26@  | @I25@ |                        {'FAM': 456, 'HUSB': 457, 'WIFE': 458, 'MARR': 460, 'CHIL': []}                        |
+| @F15@ |  @I31@  | @I30@ |           {'FAM': 462, 'HUSB': 463, 'WIFE': 464, 'MARR': 467, 'DIV': 469, 'CHIL': [('@I34@', 465)]}           |
+| @F16@ |  @I32@  | @I30@ |           {'FAM': 471, 'HUSB': 472, 'WIFE': 473, 'MARR': 476, 'DIV': 478, 'CHIL': [('@I33@', 474)]}           |
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+ERROR: FAMILY: US04: 463: @F15@: Husband with id @I31@ got divorced on 2004-09-05 before his marriage on 2005-04-02
+ERROR: FAMILY: US04: 464: @F15@: Wife with id @I30@ got divorced on 2004-09-05 before her marriage on 2005-04-02
+ERROR: FAMILY: US05: 404: @F6@: Husband with id @I7@ died on 1946-08-06 before his marriage on 1947-04-01
+ERROR: FAMILY: US05: 405: @F6@: Wife with id @I8@ died on 1946-06-10 before her marriage on 1947-04-01
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ERROR: INDIVIDUAL: US42: 318: @I31@: Person with id @I31@ has an illegitimate birthday
+ERROR: INDIVIDUAL: US42: 327: @I32@: Person with id @I32@ has an illegitimate birthday
+ERROR: INDIVIDUAL: US42: 329: @I32@: Person with id @I32@ has an illegitimate death date
+ERROR: FAMILY: US42: 390: @F4@: Family with id @F4@ has an illegitimate marriage date
+ERROR: FAMILY: US42: 421: @F8@: Family with id @F8@ has an illegitimate marriage date
+ERROR: FAMILY: US42: 478: @F16@: Family with id @F16@ has an illegitimate divorce date
+ANOMALY: INDIVIDUAL: US23: Mrunal /Salvi/: 1996-04-11 00:00:00: these name and birthdate have been multiple used !
+ANOMALY: INDIVIDUAL: US07: Manya /Chavan/: @I7@:  is 284 years old which is bigger than 150 !
+ANOMALY: INDIVIDUAL: US11: 377: @I6@: Wife with id @I6@ is doing bigamy in family @F3@
+ANOMALY: INDIVIDUAL: US11: 418: @I13@: Husband with id @I13@ is doing bigamy in family @F8@
+ANOMALY: INDIVIDUAL: US11: 432: @I15@: Wife with id @I15@ is doing bigamy in family @F10@
+ANOMALY: INDIVIDUAL: US11: 441: @I19@: Husband with id @I19@ is doing bigamy in family @F12@
+Can't Open!
+Individual Summary:
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+|   ID  |         Name        | Gender |  Birthday  |  Age  | Alive |   Death    | Child | Spouse |
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+|  @I1@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |   26  |  True |     NA     |  @F1@ |   NA   |
+|  @I2@ |    Milind /Salvi/   |   M    | 1974-06-18 |   48  |  True |     NA     |  @F2@ |  @F1@  |
+|  @I3@ |  Aparna /Chaudhary/ |   F    | 1974-06-22 |   48  |  True |     NA     |  @F3@ |  @F1@  |
+|  @I4@ |    Soham /Salvi/    |   M    | 2002-04-10 |   20  |  True |     NA     |  @F1@ |  @F4@  |
+|  @I5@ |   Manohar /Salvi/   |   M    | 1952-07-14 |   70  |  True |     NA     |  @F5@ |  @F2@  |
+|  @I6@ |    Gita /Chavan/    |   F    | 1954-05-01 |   68  |  True |     NA     |  @F6@ |  @F3@  |
+|  @I7@ |    Manya /Chavan/   |   M    | 1662-02-10 |  284  | False | 1946-08-06 |   NA  |  @F6@  |
+|  @I8@ |   Bheema /Chavan/   |   F    | 1934-03-04 |   12  | False | 1946-06-10 |   NA  |  @F6@  |
+|  @I9@ | Rambhau /Chaudhary/ |   M    | 1948-09-10 |   74  |  True |     NA     |   NA  |  @F3@  |
+| @I10@ |  Savita /Chaudhary/ |   F    | 1950-05-05 |   72  |  True |     NA     |   NA  |   NA   |
+| @I11@ |   Atul /Chaudhary/  |   M    | 1976-10-04 |   46  |  True |     NA     |  @F3@ |  @F7@  |
+| @I12@ | Pratima /Chaudhary/ |   F    | 1980-07-28 |   42  |  True |     NA     |   NA  |  @F7@  |
+| @I13@ |  Vedant /Chaudhary/ |   M    | 2006-07-14 |   16  |  True |     NA     |  @F7@ |  @F8@  |
+| @I14@ |     Rayan /Rane/    |   M    | 2008-12-12 |   14  |  True |     NA     |  @F9@ |  @F8@  |
+| @I15@ |   Rina /Chaudhary/  |   F    | 1978-12-10 |   44  |  True |     NA     |  @F3@ | @F10@  |
+| @I16@ |    Deepak /Rane/    |   M    | 1978-02-02 |   45  |  True |     NA     |   NA  |  @F9@  |
+| @I17@ |     Baap /Salvi/    |   M    | 1940-09-05 |   61  | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |    Asana /Salvi/    |   F    | 1945-03-04 |   60  | False | 2005-05-11 |   NA  |  @F5@  |
+| @I19@ |   Rajaram /Salvi/   |   M    | 1950-11-20 |   72  |  True |     NA     |  @F5@ | @F12@  |
+| @I20@ |    Meenal /Salvi/   |   F    | 1968-11-25 |   54  |  True |     NA     |   NA  | @F11@  |
+| @I21@ |  Shashikala /Patil/ |   F    | 1964-07-05 |   58  |  True |     NA     |   NA  | @F12@  |
+| @I22@ |    Aditya /Salvi/   |   M    | 1970-04-19 |   35  | False | 2006-02-04 | @F12@ | @F13@  |
+| @I23@ |    Harsh /Salvi/    |   M    | 2000-09-09 |   22  |  True |     NA     | @F13@ |   NA   |
+| @I24@ |  Meenakshi /Salvi/  |   F    | 1970-06-17 |   52  |  True |     NA     |   NA  | @F13@  |
+| @I25@ |   Pritisha /Salvi/  |   F    | 1992-07-04 |   30  |  True |     NA     | @F13@ | @F14@  |
+| @I26@ |    Nikhil /Mali/    |   M    | 1992-10-06 |   30  |  True |     NA     |   NA  | @F14@  |
+| @I27@ |    Disha /Salvi/    |   F    | 1990-08-21 |   32  |  True |     NA     | @F13@ |   NA   |
+| @I28@ |    Rahul /Salvi/    |   M    | 1988-07-10 |   34  |  True |     NA     | @F11@ |   NA   |
+| @I29@ |   Priyanka /Salvi/  |   F    | 1985-08-16 |   37  |  True |     NA     | @F11@ |   NA   |
+| @I30@ |   Manisha /Salvi/   |   F    | 1960-05-08 |   62  |  True |     NA     |  @F5@ | @F16@  |
+| @I31@ |     Manoj /Dave/    |   M    | 9999-01-01 | -7982 |  True |     NA     |   NA  | @F15@  |
+| @I32@ |   Pramod /Mathur/   |   M    | 9999-01-01 |   0   | False | 9999-01-01 |   NA  | @F16@  |
+| @I33@ |    Dyuti /Mathur/   |   F    | 1980-06-07 |   42  |  True |     NA     | @F16@ |   NA   |
+| @I34@ |    Dishti /Dave/    |   F    | 1989-08-06 |   33  |  True |     NA     | @F15@ | @F10@  |
+| @I35@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |   26  |  True |     NA     |  @F1@ |   NA   |
++-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
+Family Summary:
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+|   ID  |  Married   | Divorced | Husband ID |     Husband Name    | Wife ID |      Wife Name      |           Children          |
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+|  @F1@ | 1999-04-01 |  False   |    @I2@    |    Milind /Salvi/   |   @I3@  |  Aparna /Chaudhary/ |  ['@I1@', '@I4@', '@I35@']  |
+|  @F2@ | 1977-03-01 |  False   |    @I5@    |   Manohar /Salvi/   |   @I6@  |    Gita /Chavan/    |           ['@I2@']          |
+|  @F3@ | 1973-04-01 |  False   |    @I9@    | Rambhau /Chaudhary/ |   @I6@  |    Gita /Chavan/    |  ['@I3@', '@I11@', '@I15@'] |
+|  @F4@ | 9999-01-01 |  False   |   @I13@    |  Vedant /Chaudhary/ |   @I4@  |    Soham /Salvi/    |              []             |
+|  @F5@ | 1965-04-01 |  False   |   @I17@    |     Baap /Salvi/    |  @I18@  |    Asana /Salvi/    |  ['@I5@', '@I19@', '@I30@'] |
+|  @F6@ | 1947-04-01 |  False   |    @I7@    |    Manya /Chavan/   |   @I8@  |   Bheema /Chavan/   |           ['@I6@']          |
+|  @F7@ | 2001-04-01 |  False   |   @I11@    |   Atul /Chaudhary/  |  @I12@  | Pratima /Chaudhary/ |          ['@I13@']          |
+|  @F8@ | 9999-01-01 |  False   |   @I13@    |  Vedant /Chaudhary/ |  @I14@  |     Rayan /Rane/    |              []             |
+|  @F9@ | 2003-04-01 |  False   |   @I16@    |    Deepak /Rane/    |  @I15@  |   Rina /Chaudhary/  |          ['@I14@']          |
+| @F10@ |     NA     |  False   |   @I34@    |    Dishti /Dave/    |  @I15@  |   Rina /Chaudhary/  |              []             |
+| @F11@ |     NA     |  False   |   @I19@    |   Rajaram /Salvi/   |  @I20@  |    Meenal /Salvi/   |      ['@I28@', '@I29@']     |
+| @F12@ |     NA     |  False   |   @I19@    |   Rajaram /Salvi/   |  @I21@  |  Shashikala /Patil/ |          ['@I22@']          |
+| @F13@ | 1995-04-01 |  False   |   @I22@    |    Aditya /Salvi/   |  @I24@  |  Meenakshi /Salvi/  | ['@I23@', '@I25@', '@I27@'] |
+| @F14@ | 2018-04-01 |  False   |   @I26@    |    Nikhil /Mali/    |  @I25@  |   Pritisha /Salvi/  |              []             |
+| @F15@ | 2005-04-02 |   True   |   @I31@    |     Manoj /Dave/    |  @I30@  |   Manisha /Salvi/   |          ['@I34@']          |
+| @F16@ | 2010-04-02 |   True   |   @I32@    |   Pramod /Mathur/   |  @I30@  |   Manisha /Salvi/   |          ['@I33@']          |
++-------+------------+----------+------------+---------------------+---------+---------------------+-----------------------------+
+Include Input Line Numbers:
++-------+---------------------+--------------------------------------------------------------------------------------------+
+|   ID  |         Name        |                                        Source Lines                                        |
++-------+---------------------+--------------------------------------------------------------------------------------------+
+|  @I1@ |    Mrunal /Salvi/   |                {'INDI': 14, 'NAME': 15, 'SEX': 19, 'BIRT': 21, 'FAMC': 22}                 |
+|  @I2@ |    Milind /Salvi/   |          {'INDI': 23, 'NAME': 24, 'SEX': 28, 'BIRT': 30, 'FAMS': 31, 'FAMC': 32}           |
+|  @I3@ |  Aparna /Chaudhary/ |          {'INDI': 33, 'NAME': 34, 'SEX': 38, 'BIRT': 40, 'FAMS': 41, 'FAMC': 42}           |
+|  @I4@ |    Soham /Salvi/    |          {'INDI': 43, 'NAME': 44, 'SEX': 48, 'BIRT': 50, 'FAMS': 51, 'FAMC': 52}           |
+|  @I5@ |   Manohar /Salvi/   |          {'INDI': 53, 'NAME': 54, 'SEX': 58, 'BIRT': 60, 'FAMS': 61, 'FAMC': 62}           |
+|  @I6@ |    Gita /Chavan/    |          {'INDI': 63, 'NAME': 64, 'SEX': 68, 'BIRT': 70, 'FAMS': 72, 'FAMC': 73}           |
+|  @I7@ |    Manya /Chavan/   |          {'INDI': 74, 'NAME': 75, 'SEX': 79, 'BIRT': 81, 'DEAT': 83, 'FAMS': 84}           |
+|  @I8@ |   Bheema /Chavan/   |          {'INDI': 85, 'NAME': 86, 'SEX': 90, 'BIRT': 92, 'DEAT': 94, 'FAMS': 95}           |
+|  @I9@ | Rambhau /Chaudhary/ |               {'INDI': 96, 'NAME': 97, 'SEX': 101, 'BIRT': 103, 'FAMS': 104}               |
+| @I10@ |  Savita /Chaudhary/ |                    {'INDI': 105, 'NAME': 106, 'SEX': 110, 'BIRT': 112}                     |
+| @I11@ |   Atul /Chaudhary/  |       {'INDI': 113, 'NAME': 114, 'SEX': 118, 'BIRT': 120, 'FAMS': 121, 'FAMC': 122}        |
+| @I12@ | Pratima /Chaudhary/ |              {'INDI': 123, 'NAME': 124, 'SEX': 128, 'BIRT': 130, 'FAMS': 131}              |
+| @I13@ |  Vedant /Chaudhary/ |       {'INDI': 132, 'NAME': 133, 'SEX': 137, 'BIRT': 139, 'FAMS': 141, 'FAMC': 142}        |
+| @I14@ |     Rayan /Rane/    |       {'INDI': 143, 'NAME': 144, 'SEX': 148, 'BIRT': 150, 'FAMS': 151, 'FAMC': 152}        |
+| @I15@ |   Rina /Chaudhary/  |       {'INDI': 153, 'NAME': 154, 'SEX': 158, 'BIRT': 160, 'FAMS': 162, 'FAMC': 163}        |
+| @I16@ |    Deepak /Rane/    |              {'INDI': 164, 'NAME': 165, 'SEX': 169, 'BIRT': 171, 'FAMS': 172}              |
+| @I17@ |     Baap /Salvi/    |       {'INDI': 173, 'NAME': 174, 'SEX': 178, 'BIRT': 180, 'DEAT': 182, 'FAMS': 183}        |
+| @I18@ |    Asana /Salvi/    |       {'INDI': 184, 'NAME': 185, 'SEX': 189, 'BIRT': 191, 'DEAT': 193, 'FAMS': 194}        |
+| @I19@ |   Rajaram /Salvi/   |       {'INDI': 195, 'NAME': 196, 'SEX': 200, 'BIRT': 202, 'FAMS': 204, 'FAMC': 205}        |
+| @I20@ |    Meenal /Salvi/   |              {'INDI': 206, 'NAME': 207, 'SEX': 211, 'BIRT': 213, 'FAMS': 214}              |
+| @I21@ |  Shashikala /Patil/ |              {'INDI': 215, 'NAME': 216, 'SEX': 220, 'BIRT': 222, 'FAMS': 223}              |
+| @I22@ |    Aditya /Salvi/   | {'INDI': 224, 'NAME': 225, 'SEX': 229, 'BIRT': 231, 'DEAT': 233, 'FAMS': 234, 'FAMC': 235} |
+| @I23@ |    Harsh /Salvi/    |              {'INDI': 236, 'NAME': 237, 'SEX': 241, 'BIRT': 243, 'FAMC': 244}              |
+| @I24@ |  Meenakshi /Salvi/  |              {'INDI': 245, 'NAME': 246, 'SEX': 250, 'BIRT': 252, 'FAMS': 253}              |
+| @I25@ |   Pritisha /Salvi/  |       {'INDI': 254, 'NAME': 255, 'SEX': 259, 'BIRT': 261, 'FAMS': 262, 'FAMC': 263}        |
+| @I26@ |    Nikhil /Mali/    |              {'INDI': 264, 'NAME': 265, 'SEX': 269, 'BIRT': 271, 'FAMS': 272}              |
+| @I27@ |    Disha /Salvi/    |              {'INDI': 273, 'NAME': 274, 'SEX': 278, 'BIRT': 280, 'FAMC': 281}              |
+| @I28@ |    Rahul /Salvi/    |              {'INDI': 282, 'NAME': 283, 'SEX': 287, 'BIRT': 289, 'FAMC': 290}              |
+| @I29@ |   Priyanka /Salvi/  |              {'INDI': 291, 'NAME': 292, 'SEX': 296, 'BIRT': 298, 'FAMC': 299}              |
+| @I30@ |   Manisha /Salvi/   |       {'INDI': 300, 'NAME': 301, 'SEX': 305, 'BIRT': 307, 'FAMS': 309, 'FAMC': 310}        |
+| @I31@ |     Manoj /Dave/    |              {'INDI': 311, 'NAME': 312, 'SEX': 316, 'BIRT': 318, 'FAMS': 319}              |
+| @I32@ |   Pramod /Mathur/   |       {'INDI': 320, 'NAME': 321, 'SEX': 325, 'BIRT': 327, 'DEAT': 329, 'FAMS': 330}        |
+| @I33@ |    Dyuti /Mathur/   |              {'INDI': 331, 'NAME': 332, 'SEX': 336, 'BIRT': 338, 'FAMC': 339}              |
+| @I34@ |    Dishti /Dave/    |       {'INDI': 340, 'NAME': 341, 'SEX': 345, 'BIRT': 347, 'FAMS': 348, 'FAMC': 349}        |
+| @I35@ |    Mrunal /Salvi/   |              {'INDI': 350, 'NAME': 351, 'SEX': 355, 'BIRT': 357, 'FAMC': 358}              |
++-------+---------------------+--------------------------------------------------------------------------------------------+
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+|   ID  | Husband |  Wife |                                                  Source Lines                                                 |
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+|  @F1@ |   @I2@  |  @I3@ |  {'FAM': 359, 'HUSB': 360, 'WIFE': 361, 'MARR': 366, 'CHIL': [('@I1@', 362), ('@I4@', 363), ('@I35@', 364)]}  |
+|  @F2@ |   @I5@  |  @I6@ |                  {'FAM': 368, 'HUSB': 369, 'WIFE': 370, 'MARR': 373, 'CHIL': [('@I2@', 371)]}                 |
+|  @F3@ |   @I9@  |  @I6@ |  {'FAM': 375, 'HUSB': 376, 'WIFE': 377, 'MARR': 382, 'CHIL': [('@I3@', 378), ('@I11@', 379), ('@I15@', 380)]} |
+|  @F4@ |  @I13@  |  @I4@ |                        {'FAM': 386, 'HUSB': 387, 'WIFE': 388, 'MARR': 390, 'CHIL': []}                        |
+|  @F5@ |  @I17@  | @I18@ |  {'FAM': 394, 'HUSB': 395, 'WIFE': 396, 'MARR': 401, 'CHIL': [('@I5@', 397), ('@I19@', 398), ('@I30@', 399)]} |
+|  @F6@ |   @I7@  |  @I8@ |                  {'FAM': 403, 'HUSB': 404, 'WIFE': 405, 'MARR': 408, 'CHIL': [('@I6@', 406)]}                 |
+|  @F7@ |  @I11@  | @I12@ |                 {'FAM': 410, 'HUSB': 411, 'WIFE': 412, 'MARR': 415, 'CHIL': [('@I13@', 413)]}                 |
+|  @F8@ |  @I13@  | @I14@ |                        {'FAM': 417, 'HUSB': 418, 'WIFE': 419, 'MARR': 421, 'CHIL': []}                        |
+|  @F9@ |  @I16@  | @I15@ |                 {'FAM': 423, 'HUSB': 424, 'WIFE': 425, 'MARR': 428, 'CHIL': [('@I14@', 426)]}                 |
+| @F10@ |  @I34@  | @I15@ |                               {'FAM': 430, 'HUSB': 431, 'WIFE': 432, 'CHIL': []}                              |
+| @F11@ |  @I19@  | @I20@ |                {'FAM': 434, 'HUSB': 435, 'WIFE': 436, 'CHIL': [('@I28@', 437), ('@I29@', 438)]}               |
+| @F12@ |  @I19@  | @I21@ |                        {'FAM': 440, 'HUSB': 441, 'WIFE': 442, 'CHIL': [('@I22@', 443)]}                       |
+| @F13@ |  @I22@  | @I24@ | {'FAM': 445, 'HUSB': 446, 'WIFE': 447, 'MARR': 452, 'CHIL': [('@I23@', 448), ('@I25@', 449), ('@I27@', 450)]} |
+| @F14@ |  @I26@  | @I25@ |                        {'FAM': 456, 'HUSB': 457, 'WIFE': 458, 'MARR': 460, 'CHIL': []}                        |
+| @F15@ |  @I31@  | @I30@ |           {'FAM': 462, 'HUSB': 463, 'WIFE': 464, 'MARR': 467, 'DIV': 469, 'CHIL': [('@I34@', 465)]}           |
+| @F16@ |  @I32@  | @I30@ |           {'FAM': 471, 'HUSB': 472, 'WIFE': 473, 'MARR': 476, 'DIV': 478, 'CHIL': [('@I33@', 474)]}           |
++-------+---------+-------+---------------------------------------------------------------------------------------------------------------+
+ERROR: FAMILY: US04: 463: @F15@: Husband with id @I31@ got divorced on 2004-09-05 before his marriage on 2005-04-02
+ERROR: FAMILY: US04: 464: @F15@: Wife with id @I30@ got divorced on 2004-09-05 before her marriage on 2005-04-02
+ERROR: FAMILY: US05: 404: @F6@: Husband with id @I7@ died on 1946-08-06 before his marriage on 1947-04-01
+ERROR: FAMILY: US05: 405: @F6@: Wife with id @I8@ died on 1946-06-10 before her marriage on 1947-04-01
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ANOMALY: FAMILY: US19: 471: @F16@: Husband with id @I32@ and wife with id @I30@ are first cousins.
+ERROR: INDIVIDUAL: US42: 318: @I31@: Person with id @I31@ has an illegitimate birthday
+ERROR: INDIVIDUAL: US42: 327: @I32@: Person with id @I32@ has an illegitimate birthday
+ERROR: INDIVIDUAL: US42: 329: @I32@: Person with id @I32@ has an illegitimate death date
+ERROR: FAMILY: US42: 390: @F4@: Family with id @F4@ has an illegitimate marriage date
+ERROR: FAMILY: US42: 421: @F8@: Family with id @F8@ has an illegitimate marriage date
+ERROR: FAMILY: US42: 478: @F16@: Family with id @F16@ has an illegitimate divorce date
+ANOMALY: INDIVIDUAL: US23: Mrunal /Salvi/: 1996-04-11 00:00:00: these name and birthdate have been multiple used !
+ANOMALY: INDIVIDUAL: US07: Manya /Chavan/: @I7@:  is 284 years old which is bigger than 150 !
+ANOMALY: INDIVIDUAL: US11: 377: @I6@: Wife with id @I6@ is doing bigamy in family @F3@
+ANOMALY: INDIVIDUAL: US11: 418: @I13@: Husband with id @I13@ is doing bigamy in family @F8@
+ANOMALY: INDIVIDUAL: US11: 432: @I15@: Wife with id @I15@ is doing bigamy in family @F10@
+ANOMALY: INDIVIDUAL: US11: 441: @I19@: Husband with id @I19@ is doing bigamy in family @F12@
+
+Process finished with exit code 0

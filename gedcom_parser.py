@@ -830,7 +830,7 @@ class GedcomTree:
         if debug:
             return debug_list
 
-    def us04_marriage_after_divorce(self, debug=False):
+    def us04_marriage_before_divorce(self, debug=False):
         """ User Story 04:  Marriage should occur before divorce of spouses
             and divorce can only occur after marriage """
 
@@ -1183,7 +1183,7 @@ class Individual:
 
 def sprint_001_main(filename=None):
     scrum = GedcomTree(r'GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=True, write=False)
-    scrum.us04_marriage_after_divorce()
+    scrum.us04_marriage_before_divorce()
     scrum.us05_marriage_before_death()
     scrum.us19_first_cousins_should_not_marry()
     scrum.us42_reject_illegitimate_dates()
@@ -1204,7 +1204,7 @@ def sprint_001_main(filename=None):
             with fp:
                 fp.write("Sprint 1 Results\n")
                 scrum = GedcomTree(r'GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=True)
-                scrum.us04_marriage_after_divorce()
+                scrum.us04_marriage_before_divorce()
                 scrum.us05_marriage_before_death()
                 scrum.us19_first_cousins_should_not_marry()
                 scrum.us42_reject_illegitimate_dates()

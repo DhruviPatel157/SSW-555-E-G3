@@ -9,7 +9,7 @@ class GedcomTreeTest(unittest.TestCase):
 
         sprint4 = GedcomTree(
             r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
-        debug_list = sprint4.us04_marriage_after_divorce(debug=True)
+        debug_list = sprint4.us04_marriage_before_divorce(debug=True)
         self.assertEqual(len(debug_list), 2)
         self.assertIn("@I31@", debug_list)
         self.assertIn("@I30@", debug_list)
