@@ -636,6 +636,17 @@ class GedcomTree:
         if debug:
             return debug_list
 
+    def us01_dates_before_current_date(self):
+        for individual in self.individuals.values():
+            try:
+                if individual.birth_date > datetime.date:
+                    self.log_error("ANOMALY", "INDIVIDUAL", "US01", individual.birth_date,
+                                   individual.indi_id,
+                                   f"Siblings in family with id {individual.birth_date} are born before today {datetime.date}")
+            except Exception :
+                dfa =324
+
+
     def us18_siblings_should_not_marry(self, debug=False):
         """ User Story 18 - Siblings should not marry one another """
 
@@ -1191,6 +1202,8 @@ def sprint_001_main(filename=None):
     scrum.us07_less_than_150_years_old()
     scrum.us11_no_bigamy()
     scrum.us40_include_input_line_numbers(pt=True)
+    scrum.us01_dates_before_current_date()
+    scrum.us02_birth_before_marriage()
 
     for error in scrum.error_log:
         print(error)
@@ -1212,7 +1225,6 @@ def sprint_001_main(filename=None):
                 scrum.us07_less_than_150_years_old()
                 scrum.us11_no_bigamy()
                 scrum.us40_include_input_line_numbers(write=True)
-
 
                 for i in scrum.write_to_file:
                     for content in i:
