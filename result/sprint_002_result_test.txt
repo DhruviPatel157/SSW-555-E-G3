@@ -1,0 +1,174 @@
+/Users/xluthor/Academics/PycharmProjects/SSW-555-E-G3/venv/bin/python /Users/xluthor/Academics/PycharmProjects/SSW-555-E-G3/gedcom_parser.py
+Individual Summary:
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+|   ID  |         Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+|  @I1@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |  26 |  True |     NA     |  @F1@ |   NA   |
+|  @I2@ |    Milind /Salvi/   |   M    | 1990-06-18 |  32 |  True |     NA     |  @F2@ |  @F1@  |
+|  @I3@ |  Aparna /Chaudhary/ |   F    | 1974-11-21 |  35 | False | 2010-06-22 |  @F4@ |  @F3@  |
+|  @I4@ |    Soham /Salvi/    |   M    | 2002-04-10 |  20 |  True |     NA     |  @F1@ |   NA   |
+|  @I5@ |   Manohar /Salvi/   |   M    | 1952-07-14 |  70 |  True |     NA     |  @F5@ |  @F2@  |
+|  @I6@ |    Gita /Chavan/    |   F    | 1954-05-01 |  68 |  True |     NA     |  @F6@ |  @F2@  |
+|  @I7@ |    Manya /Chavan/   |   M    | 1972-02-10 |  -2 | False | 1970-08-06 |   NA  |  @F6@  |
+|  @I8@ |   Bheema /Chavan/   |   F    | 1934-03-04 |  46 | False | 1980-06-10 |   NA  |  @F6@  |
+|  @I9@ | Rambhau /Chaudhary/ |   M    | 1948-09-10 |  74 |  True |     NA     |   NA  |  @F4@  |
+| @I10@ |  Savita /Chaudhary/ |   F    | 1950-05-05 |  72 |  True |     NA     |   NA  |  @F4@  |
+| @I11@ |   Atul /Chaudhary/  |   M    | 1976-10-04 |  46 |  True |     NA     |  @F4@ |  @F3@  |
+| @I12@ | Pratima /Chaudhary/ |   F    | 1980-07-28 |  42 |  True |     NA     |   NA  |   NA   |
+| @I13@ |  Vedant /Chaudhary/ |   M    | 2006-07-14 |  16 |  True |     NA     |  @F3@ |   NA   |
+| @I14@ |   Rina /Chaudhary/  |   F    | 1978-12-10 |  44 |  True |     NA     |  @F4@ |  @F7@  |
+| @I15@ |    Deepak /Rane/    |   M    | 1978-02-02 |  45 |  True |     NA     |   NA  |  @F7@  |
+| @I16@ |     Rayan /Rane/    |   M    | 2008-12-12 |  14 |  True |     NA     |  @F7@ |   NA   |
+| @I17@ |     Baap /Salvi/    |   M    | 1940-09-05 |  61 | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |    Asana /Salvi/    |   F    | 1945-03-04 |  60 | False | 2005-05-11 |   NA  |  @F5@  |
+| @I19@ |   Rajaram /Salvi/   |   M    | 1950-11-20 |  72 |  True |     NA     |  @F5@ |  @F9@  |
+| @I20@ |    Meenal /Salvi/   |   F    | 1968-11-25 |  54 |  True |     NA     |   NA  |  @F8@  |
+| @I21@ |  Shashikala /Patil/ |   F    | 1964-07-05 |  58 |  True |     NA     |   NA  |  @F9@  |
+| @I22@ |    Aditya /Salvi/   |   M    | 2006-04-19 |  -1 | False | 2006-02-04 |  @F9@ | @F10@  |
+| @I23@ |    Harsh /Salvi/    |   M    | 2000-09-09 |  22 |  True |     NA     | @F10@ | @F11@  |
+| @I24@ |    Disha /Salvi/    |   F    | 1990-08-21 |  32 |  True |     NA     | @F10@ | @F11@  |
+| @I25@ |  Meenakshi /Salvi/  |   F    | 1970-06-17 |  52 |  True |     NA     |   NA  | @F10@  |
+| @I26@ |    Harsh /Salvi/    |   F    | 2000-09-09 |  22 |  True |     NA     | @F10@ | @F12@  |
+| @I27@ |    Nikhil /Mali/    |   M    | 1992-10-06 |  30 |  True |     NA     |   NA  | @F12@  |
+| @I28@ |    Rahul /Salvi/    |   M    | 1988-07-10 |  34 |  True |     NA     |  @F8@ |   NA   |
+| @I29@ |    Rahul /Salvi/    |   F    | 1988-07-10 |  34 |  True |     NA     |  @F8@ |   NA   |
+| @I30@ |   Manisha /Salvi/   |   F    | 1960-05-08 |  62 |  True |     NA     |  @F5@ | @F14@  |
+| @I31@ |     Manoj /Dave/    |   M    | 1965-07-07 |  57 |  True |     NA     |   NA  | @F13@  |
+| @I32@ |   Pramod /Mathur/   |   M    | 1955-11-03 |  46 | False | 2002-05-05 |   NA  | @F14@  |
+| @I33@ |    Dyuti /Mathur/   |   F    | 1980-06-07 |  42 |  True |     NA     | @F14@ |   NA   |
+| @I34@ |    Dishti /Dave/    |   F    | 1989-08-06 |  33 |  True |     NA     | @F13@ |   NA   |
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+Family Summary:
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+|   ID  |  Married   | Divorced | Husband ID |     Husband Name    | Wife ID |     Wife Name      |           Children          |
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+|  @F1@ | 2019-11-20 |  False   |    @I2@    |    Milind /Salvi/   |   @I3@  | Aparna /Chaudhary/ |       ['@I1@', '@I4@']      |
+|  @F2@ | 1970-01-01 |  False   |    @I5@    |   Manohar /Salvi/   |   @I6@  |   Gita /Chavan/    |           ['@I2@']          |
+|  @F3@ | 2011-01-01 |  False   |   @I11@    |   Atul /Chaudhary/  |   @I3@  | Aparna /Chaudhary/ |          ['@I13@']          |
+|  @F4@ | 1973-01-01 |  False   |    @I9@    | Rambhau /Chaudhary/ |  @I10@  | Savita /Chaudhary/ |  ['@I3@', '@I11@', '@I14@'] |
+|  @F5@ | 1970-01-01 |  False   |   @I17@    |     Baap /Salvi/    |  @I18@  |   Asana /Salvi/    |  ['@I5@', '@I19@', '@I30@'] |
+|  @F6@ | 1953-01-01 |  False   |    @I7@    |    Manya /Chavan/   |   @I8@  |  Bheema /Chavan/   |           ['@I6@']          |
+|  @F7@ | 2019-11-26 |  False   |   @I15@    |    Deepak /Rane/    |  @I14@  |  Rina /Chaudhary/  |          ['@I16@']          |
+|  @F8@ | 1987-01-01 |  False   |   @I19@    |   Rajaram /Salvi/   |  @I20@  |   Meenal /Salvi/   |      ['@I28@', '@I29@']     |
+|  @F9@ | 1969-01-01 |  False   |   @I19@    |   Rajaram /Salvi/   |  @I21@  | Shashikala /Patil/ |          ['@I22@']          |
+| @F10@ | 1989-01-01 |  False   |   @I22@    |    Aditya /Salvi/   |  @I25@  | Meenakshi /Salvi/  | ['@I23@', '@I24@', '@I26@'] |
+| @F11@ | 2018-01-01 |  False   |   @I23@    |    Harsh /Salvi/    |  @I24@  |   Disha /Salvi/    |              []             |
+| @F12@ | 2017-01-01 |  False   |   @I27@    |    Nikhil /Mali/    |  @I26@  |   Harsh /Salvi/    |              []             |
+| @F13@ | 1988-01-01 |  False   |   @I31@    |     Manoj /Dave/    |  @I30@  |  Manisha /Salvi/   |          ['@I34@']          |
+| @F14@ | 1979-01-01 |  False   |   @I32@    |   Pramod /Mathur/   |  @I30@  |  Manisha /Salvi/   |          ['@I33@']          |
+| @F15@ | 2017-01-01 |  False   |   @I27@    |    Nikhil /Mali/    |  @I26@  |   Harsh /Salvi/    |              []             |
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+Deceased people list:
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+|   ID  |        Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+|  @I3@ | Aparna /Chaudhary/ |   F    | 1974-11-21 |  35 | False | 2010-06-22 |  @F4@ |  @F3@  |
+|  @I7@ |   Manya /Chavan/   |   M    | 1972-02-10 |  -2 | False | 1970-08-06 |   NA  |  @F6@  |
+|  @I8@ |  Bheema /Chavan/   |   F    | 1934-03-04 |  46 | False | 1980-06-10 |   NA  |  @F6@  |
+| @I17@ |    Baap /Salvi/    |   M    | 1940-09-05 |  61 | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |   Asana /Salvi/    |   F    | 1945-03-04 |  60 | False | 2005-05-11 |   NA  |  @F5@  |
+| @I22@ |   Aditya /Salvi/   |   M    | 2006-04-19 |  -1 | False | 2006-02-04 |  @F9@ | @F10@  |
+| @I32@ |  Pramod /Mathur/   |   M    | 1955-11-03 |  46 | False | 2002-05-05 |   NA  | @F14@  |
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+Upcoming Anniversaries:
+No data
+ERROR: FAMILY: US25: 406: @F8@: Child with id @I29@ has the same name and birth date as another child in the family.
+ERROR: FAMILY: US25: 423: @F10@: Child with id @I26@ has the same name and birth date as another child in the family.
+ANOMALY: FAMILY: US18: 363: @F3@: Siblings in family with id @F4@ are married to each other in family with id @F3@
+ANOMALY: FAMILY: US18: 432: @F11@: Siblings in family with id @F10@ are married to each other in family with id @F11@
+ERROR: INDIVIDUAL: US02: 74: @I7@: Husband with id @I7@ was born on 1972-02-10 and got married on 1953-01-01
+ERROR: INDIVIDUAL: US02: 220: @I22@: Husband with id @I22@ was born on 2006-04-19 and got married on 1989-01-01
+ERROR: INDIVIDUAL: US03: 81: @I7@: Individual with id @I7@ was born on 1972-02-10 and died on 1970-08-06
+ERROR: INDIVIDUAL: US03: 227: @I22@: Individual with id @I22@ was born on 2006-04-19 and died on 2006-02-04
+ANOMALY: INDIVIDUAL: US10: 394: @I7@: Individual id whose name is Manya /Chavan/ in family @F6@ married before age 14.
+ANOMALY: INDIVIDUAL: US10: 416: @I21@: Individual id whose name is Shashikala /Patil/ in family @F9@ married before age 14.
+ANOMALY: INDIVIDUAL: US10: 427: @I22@: Individual id whose name is Aditya /Salvi/ in family @F10@ married before age 14.
+ERROR: FAMILY: US24: 459: @F15@: Family with id @F15@ is a duplicate family record.
+Can't Open!
+Individual Summary:
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+|   ID  |         Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+|  @I1@ |    Mrunal /Salvi/   |   M    | 1996-04-11 |  26 |  True |     NA     |  @F1@ |   NA   |
+|  @I2@ |    Milind /Salvi/   |   M    | 1990-06-18 |  32 |  True |     NA     |  @F2@ |  @F1@  |
+|  @I3@ |  Aparna /Chaudhary/ |   F    | 1974-11-21 |  35 | False | 2010-06-22 |  @F4@ |  @F3@  |
+|  @I4@ |    Soham /Salvi/    |   M    | 2002-04-10 |  20 |  True |     NA     |  @F1@ |   NA   |
+|  @I5@ |   Manohar /Salvi/   |   M    | 1952-07-14 |  70 |  True |     NA     |  @F5@ |  @F2@  |
+|  @I6@ |    Gita /Chavan/    |   F    | 1954-05-01 |  68 |  True |     NA     |  @F6@ |  @F2@  |
+|  @I7@ |    Manya /Chavan/   |   M    | 1972-02-10 |  -2 | False | 1970-08-06 |   NA  |  @F6@  |
+|  @I8@ |   Bheema /Chavan/   |   F    | 1934-03-04 |  46 | False | 1980-06-10 |   NA  |  @F6@  |
+|  @I9@ | Rambhau /Chaudhary/ |   M    | 1948-09-10 |  74 |  True |     NA     |   NA  |  @F4@  |
+| @I10@ |  Savita /Chaudhary/ |   F    | 1950-05-05 |  72 |  True |     NA     |   NA  |  @F4@  |
+| @I11@ |   Atul /Chaudhary/  |   M    | 1976-10-04 |  46 |  True |     NA     |  @F4@ |  @F3@  |
+| @I12@ | Pratima /Chaudhary/ |   F    | 1980-07-28 |  42 |  True |     NA     |   NA  |   NA   |
+| @I13@ |  Vedant /Chaudhary/ |   M    | 2006-07-14 |  16 |  True |     NA     |  @F3@ |   NA   |
+| @I14@ |   Rina /Chaudhary/  |   F    | 1978-12-10 |  44 |  True |     NA     |  @F4@ |  @F7@  |
+| @I15@ |    Deepak /Rane/    |   M    | 1978-02-02 |  45 |  True |     NA     |   NA  |  @F7@  |
+| @I16@ |     Rayan /Rane/    |   M    | 2008-12-12 |  14 |  True |     NA     |  @F7@ |   NA   |
+| @I17@ |     Baap /Salvi/    |   M    | 1940-09-05 |  61 | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |    Asana /Salvi/    |   F    | 1945-03-04 |  60 | False | 2005-05-11 |   NA  |  @F5@  |
+| @I19@ |   Rajaram /Salvi/   |   M    | 1950-11-20 |  72 |  True |     NA     |  @F5@ |  @F9@  |
+| @I20@ |    Meenal /Salvi/   |   F    | 1968-11-25 |  54 |  True |     NA     |   NA  |  @F8@  |
+| @I21@ |  Shashikala /Patil/ |   F    | 1964-07-05 |  58 |  True |     NA     |   NA  |  @F9@  |
+| @I22@ |    Aditya /Salvi/   |   M    | 2006-04-19 |  -1 | False | 2006-02-04 |  @F9@ | @F10@  |
+| @I23@ |    Harsh /Salvi/    |   M    | 2000-09-09 |  22 |  True |     NA     | @F10@ | @F11@  |
+| @I24@ |    Disha /Salvi/    |   F    | 1990-08-21 |  32 |  True |     NA     | @F10@ | @F11@  |
+| @I25@ |  Meenakshi /Salvi/  |   F    | 1970-06-17 |  52 |  True |     NA     |   NA  | @F10@  |
+| @I26@ |    Harsh /Salvi/    |   F    | 2000-09-09 |  22 |  True |     NA     | @F10@ | @F12@  |
+| @I27@ |    Nikhil /Mali/    |   M    | 1992-10-06 |  30 |  True |     NA     |   NA  | @F12@  |
+| @I28@ |    Rahul /Salvi/    |   M    | 1988-07-10 |  34 |  True |     NA     |  @F8@ |   NA   |
+| @I29@ |    Rahul /Salvi/    |   F    | 1988-07-10 |  34 |  True |     NA     |  @F8@ |   NA   |
+| @I30@ |   Manisha /Salvi/   |   F    | 1960-05-08 |  62 |  True |     NA     |  @F5@ | @F14@  |
+| @I31@ |     Manoj /Dave/    |   M    | 1965-07-07 |  57 |  True |     NA     |   NA  | @F13@  |
+| @I32@ |   Pramod /Mathur/   |   M    | 1955-11-03 |  46 | False | 2002-05-05 |   NA  | @F14@  |
+| @I33@ |    Dyuti /Mathur/   |   F    | 1980-06-07 |  42 |  True |     NA     | @F14@ |   NA   |
+| @I34@ |    Dishti /Dave/    |   F    | 1989-08-06 |  33 |  True |     NA     | @F13@ |   NA   |
++-------+---------------------+--------+------------+-----+-------+------------+-------+--------+
+Family Summary:
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+|   ID  |  Married   | Divorced | Husband ID |     Husband Name    | Wife ID |     Wife Name      |           Children          |
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+|  @F1@ | 2019-11-20 |  False   |    @I2@    |    Milind /Salvi/   |   @I3@  | Aparna /Chaudhary/ |       ['@I1@', '@I4@']      |
+|  @F2@ | 1970-01-01 |  False   |    @I5@    |   Manohar /Salvi/   |   @I6@  |   Gita /Chavan/    |           ['@I2@']          |
+|  @F3@ | 2011-01-01 |  False   |   @I11@    |   Atul /Chaudhary/  |   @I3@  | Aparna /Chaudhary/ |          ['@I13@']          |
+|  @F4@ | 1973-01-01 |  False   |    @I9@    | Rambhau /Chaudhary/ |  @I10@  | Savita /Chaudhary/ |  ['@I3@', '@I11@', '@I14@'] |
+|  @F5@ | 1970-01-01 |  False   |   @I17@    |     Baap /Salvi/    |  @I18@  |   Asana /Salvi/    |  ['@I5@', '@I19@', '@I30@'] |
+|  @F6@ | 1953-01-01 |  False   |    @I7@    |    Manya /Chavan/   |   @I8@  |  Bheema /Chavan/   |           ['@I6@']          |
+|  @F7@ | 2019-11-26 |  False   |   @I15@    |    Deepak /Rane/    |  @I14@  |  Rina /Chaudhary/  |          ['@I16@']          |
+|  @F8@ | 1987-01-01 |  False   |   @I19@    |   Rajaram /Salvi/   |  @I20@  |   Meenal /Salvi/   |      ['@I28@', '@I29@']     |
+|  @F9@ | 1969-01-01 |  False   |   @I19@    |   Rajaram /Salvi/   |  @I21@  | Shashikala /Patil/ |          ['@I22@']          |
+| @F10@ | 1989-01-01 |  False   |   @I22@    |    Aditya /Salvi/   |  @I25@  | Meenakshi /Salvi/  | ['@I23@', '@I24@', '@I26@'] |
+| @F11@ | 2018-01-01 |  False   |   @I23@    |    Harsh /Salvi/    |  @I24@  |   Disha /Salvi/    |              []             |
+| @F12@ | 2017-01-01 |  False   |   @I27@    |    Nikhil /Mali/    |  @I26@  |   Harsh /Salvi/    |              []             |
+| @F13@ | 1988-01-01 |  False   |   @I31@    |     Manoj /Dave/    |  @I30@  |  Manisha /Salvi/   |          ['@I34@']          |
+| @F14@ | 1979-01-01 |  False   |   @I32@    |   Pramod /Mathur/   |  @I30@  |  Manisha /Salvi/   |          ['@I33@']          |
+| @F15@ | 2017-01-01 |  False   |   @I27@    |    Nikhil /Mali/    |  @I26@  |   Harsh /Salvi/    |              []             |
++-------+------------+----------+------------+---------------------+---------+--------------------+-----------------------------+
+Deceased people list:
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+|   ID  |        Name        | Gender |  Birthday  | Age | Alive |   Death    | Child | Spouse |
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+|  @I3@ | Aparna /Chaudhary/ |   F    | 1974-11-21 |  35 | False | 2010-06-22 |  @F4@ |  @F3@  |
+|  @I7@ |   Manya /Chavan/   |   M    | 1972-02-10 |  -2 | False | 1970-08-06 |   NA  |  @F6@  |
+|  @I8@ |  Bheema /Chavan/   |   F    | 1934-03-04 |  46 | False | 1980-06-10 |   NA  |  @F6@  |
+| @I17@ |    Baap /Salvi/    |   M    | 1940-09-05 |  61 | False | 2002-02-02 |   NA  |  @F5@  |
+| @I18@ |   Asana /Salvi/    |   F    | 1945-03-04 |  60 | False | 2005-05-11 |   NA  |  @F5@  |
+| @I22@ |   Aditya /Salvi/   |   M    | 2006-04-19 |  -1 | False | 2006-02-04 |  @F9@ | @F10@  |
+| @I32@ |  Pramod /Mathur/   |   M    | 1955-11-03 |  46 | False | 2002-05-05 |   NA  | @F14@  |
++-------+--------------------+--------+------------+-----+-------+------------+-------+--------+
+Upcoming Anniversaries:
+No data
+ERROR: FAMILY: US25: 406: @F8@: Child with id @I29@ has the same name and birth date as another child in the family.
+ERROR: FAMILY: US25: 423: @F10@: Child with id @I26@ has the same name and birth date as another child in the family.
+ANOMALY: FAMILY: US18: 363: @F3@: Siblings in family with id @F4@ are married to each other in family with id @F3@
+ANOMALY: FAMILY: US18: 432: @F11@: Siblings in family with id @F10@ are married to each other in family with id @F11@
+ERROR: INDIVIDUAL: US02: 74: @I7@: Husband with id @I7@ was born on 1972-02-10 and got married on 1953-01-01
+ERROR: INDIVIDUAL: US02: 220: @I22@: Husband with id @I22@ was born on 2006-04-19 and got married on 1989-01-01
+ERROR: INDIVIDUAL: US03: 81: @I7@: Individual with id @I7@ was born on 1972-02-10 and died on 1970-08-06
+ERROR: INDIVIDUAL: US03: 227: @I22@: Individual with id @I22@ was born on 2006-04-19 and died on 2006-02-04
+ANOMALY: INDIVIDUAL: US10: 394: @I7@: Individual id whose name is Manya /Chavan/ in family @F6@ married before age 14.
+ANOMALY: INDIVIDUAL: US10: 416: @I21@: Individual id whose name is Shashikala /Patil/ in family @F9@ married before age 14.
+ANOMALY: INDIVIDUAL: US10: 427: @I22@: Individual id whose name is Aditya /Salvi/ in family @F10@ married before age 14.
+ERROR: FAMILY: US24: 459: @F15@: Family with id @F15@ is a duplicate family record.
+
+Process finished with exit code 0

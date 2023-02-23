@@ -139,6 +139,8 @@ ANOMALY: INDIVIDUAL: US11: 377: @I6@: Wife with id @I6@ is doing bigamy in famil
 ANOMALY: INDIVIDUAL: US11: 418: @I13@: Husband with id @I13@ is doing bigamy in family @F8@
 ANOMALY: INDIVIDUAL: US11: 432: @I15@: Wife with id @I15@ is doing bigamy in family @F10@
 ANOMALY: INDIVIDUAL: US11: 441: @I19@: Husband with id @I19@ is doing bigamy in family @F12@
+ERROR: INDIVIDUAL: US02: 311: @I31@: Husband with id @I31@ was born on 9999-01-01 and got married on 2005-04-02
+ERROR: INDIVIDUAL: US02: 320: @I32@: Husband with id @I32@ was born on 9999-01-01 and got married on 2010-04-02
 Can't Open!
 Individual Summary:
 +-------+---------------------+--------+------------+-------+-------+------------+-------+--------+
@@ -280,5 +282,7 @@ ANOMALY: INDIVIDUAL: US11: 377: @I6@: Wife with id @I6@ is doing bigamy in famil
 ANOMALY: INDIVIDUAL: US11: 418: @I13@: Husband with id @I13@ is doing bigamy in family @F8@
 ANOMALY: INDIVIDUAL: US11: 432: @I15@: Wife with id @I15@ is doing bigamy in family @F10@
 ANOMALY: INDIVIDUAL: US11: 441: @I19@: Husband with id @I19@ is doing bigamy in family @F12@
+ERROR: INDIVIDUAL: US02: 311: @I31@: Husband with id @I31@ was born on 9999-01-01 and got married on 2005-04-02
+ERROR: INDIVIDUAL: US02: 320: @I32@: Husband with id @I32@ was born on 9999-01-01 and got married on 2010-04-02
 
 Process finished with exit code 0

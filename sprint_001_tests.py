@@ -1,28 +1,135 @@
 import unittest
 from gedcom_parser import GedcomTree, Family, Individual
 
-class GedcomTreeTest(unittest.TestCase):
-    """ Test class for Sprint 2 User Stories """
+import unittest
 
-    def test_us04_marriage_after_divorce(self):
+from gedcom_parser import GedcomTree
+
+
+class GedTestUS04Test(unittest.TestCase):
+    def test_1_us04_marriage_after_divorce(self):
+        """ Check if User Story 04 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us04_marriage_before_divorce(debug=True)
+        self.assertIn("@I31@", debug_list)
+
+    def test_2_us04_marriage_after_divorce(self):
+        """ Check if User Story 04 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us04_marriage_before_divorce(debug=True)
+        self.assertIn("@I30@", debug_list)
+
+    def test_3_us04_marriage_after_divorce(self):
         """ Check if User Story 04 works properly """
 
         sprint4 = GedcomTree(
             r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
         debug_list = sprint4.us04_marriage_before_divorce(debug=True)
         self.assertEqual(len(debug_list), 2)
-        self.assertIn("@I31@", debug_list)
-        self.assertIn("@I30@", debug_list)
+        self.assertNotIn("@432@", debug_list)
 
-    def test_us05_marriage_before_death(self):
+    def test_4_us04_marriage_after_divorce(self):
+        """ Check if User Story 04 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us04_marriage_before_divorce(debug=True)
+        self.assertNotIn("@234@", debug_list)
+
+    def test_5_us04_marriage_after_divorce(self):
+        """ Check if User Story 04 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us04_marriage_before_divorce(debug=True)
+        self.assertNotIn("@121@", debug_list)
+
+
+class GedTestUS05Test(unittest.TestCase):
+
+    def test_1_us05_marriage_before_death(self):
         """ Check if User Story 05 works properly """
 
         sprint4 = GedcomTree(
             r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
         debug_list = sprint4.us05_marriage_before_death(debug=True)
         self.assertEqual(len(debug_list), 2)
+
+    def test_2_us05_marriage_before_death(self):
+        """ Check if User Story 05 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us05_marriage_before_death(debug=True)
         self.assertIn("@I7@", debug_list)
+
+    def test_3_us05_marriage_before_death(self):
+        """ Check if User Story 05 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us05_marriage_before_death(debug=True)
         self.assertIn("@I8@", debug_list)
+
+    def test_4_us05_marriage_before_death(self):
+        """ Check if User Story 05 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us05_marriage_before_death(debug=True)
+        self.assertNotIn("@I85@", debug_list)
+
+    def test_5_us05_marriage_before_death(self):
+        """ Check if User Story 05 works properly """
+
+        sprint4 = GedcomTree(
+            r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us05_marriage_before_death(debug=True)
+        self.assertNotIn("@I82@", debug_list)
+class Gedcom_US_07_Test(unittest.TestCase):
+
+    def test_1_us07_less_than_150_years_old(self):
+        """ Check if User Story 07 works properly """
+
+        sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us07_less_than_150_years_old(debug=True)
+        self.assertIn("@I7@", debug_list)
+
+    def test_2_us07_less_than_150_years_old(self):
+        """ Check if User Story 07 works properly """
+
+        sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us07_less_than_150_years_old(debug=True)
+        self.assertEqual(len(debug_list), 1)
+
+    def test_3_us07_less_than_150_years_old(self):
+        """ Check if User Story 07 works properly """
+
+        sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us07_less_than_150_years_old(debug=True)
+        self.assertNotIn("@I71@", debug_list)
+
+    def test_4_us07_less_than_150_years_old(self):
+        """ Check if User Story 07 works properly """
+
+        sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us07_less_than_150_years_old(debug=True)
+        self.assertNotIn("@I73@", debug_list)
+
+    def test_5_us07_less_than_150_years_old(self):
+        """ Check if User Story 07 works properly """
+
+        sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
+        debug_list = sprint4.us07_less_than_150_years_old(debug=True)
+        self.assertNotIn("@I72@", debug_list)
+
+
+class GedcomTreeTest(unittest.TestCase):
+    """ Test class for Sprint 2 User Stories """
 
     def test_us19_first_cousins_should_not_marry(self):
         """ Check if User Story 19 works properly """
@@ -51,7 +158,7 @@ class GedcomTreeTest(unittest.TestCase):
         sprint4 = GedcomTree(r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
         bug_number = sprint4.us23_unique_name_and_birth_date(debug=True)
         self.assertEqual(bug_number, 1)
-        
+
     def test_us07_less_than_150_years_old(self):
         """ Check if User Story 07 works properly """
 
@@ -59,7 +166,7 @@ class GedcomTreeTest(unittest.TestCase):
         debug_list = sprint4.us07_less_than_150_years_old(debug=True)
         self.assertEqual(len(debug_list), 1)
         self.assertIn("@I7@", debug_list)
-        
+
     def test_us11_no_bigamy(self):
         """ Check if User Story 11 works properly """
 
@@ -87,8 +194,6 @@ class GedcomTreeTest(unittest.TestCase):
             self.assertTrue(line_numbers < total_lines)
             self.assertFalse(line_numbers <= 0)
             self.assertFalse(line_numbers > total_lines)
-
-
 
 
 if __name__ == '__main__':
