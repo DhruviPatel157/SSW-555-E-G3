@@ -10,7 +10,6 @@ import collections
 from prettytable import PrettyTable
 
 
-
 class GedcomTree:
     """ GEDCOM Tree class to process and store data from GEDCOM files """
 
@@ -629,10 +628,10 @@ class GedcomTree:
                             if (individual.full_name["firstName"], individual.birth_date) not in check_child:
                                 check_child.append((individual.full_name["firstName"], individual.birth_date))
                             else:
+                                error_string = f"Child with id {child} has the same name and birth date as another child in the family."
                                 self.log_error("ERROR", "FAMILY", "US25", family.line_number["CHIL"][0][1],
                                                family.fam_id,
-                                               f"Child with id {child} has the same name and birth date as another child in the family.")
-                                debug_list.append(family.fam_id)
+                                               error_string)
 
         if debug:
             return debug_list
@@ -644,9 +643,8 @@ class GedcomTree:
                     self.log_error("ANOMALY", "INDIVIDUAL", "US01", individual.birth_date,
                                    individual.indi_id,
                                    f"Siblings in family with id {individual.birth_date} are born before today {datetime.date}")
-            except Exception :
-                dfa =324
-
+            except Exception:
+                dfa = None
 
     def us18_siblings_should_not_marry(self, debug=False):
         """ User Story 18 - Siblings should not marry one another """
@@ -1116,6 +1114,8 @@ class Family:
             divorced = True
 
         return divorced
+
+
 
 
 class Individual:

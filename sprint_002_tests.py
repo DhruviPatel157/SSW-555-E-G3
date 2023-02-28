@@ -75,11 +75,22 @@ class GedcomTreeTest(unittest.TestCase):
     def test_us03_birth_before_death(self):
         """ Check if User Story 3 works properly """
 
+        # Create a GedcomTree object by passing the path of the GEDCOM file
+        # to be parsed to the GedcomTree constructor.
         sprint3 = GedcomTree(r'GEDCOM_files/Sprint_002_test_GEDCOM.ged')
+
+        # Call the us03_birth_before_death method of the GedcomTree object to
+        # retrieve a list of individuals whose death occurred before their birth.
+        # Set debug=True to print debug information to the console.
         debug_list = sprint3.us03_birth_before_death(debug=True)
+
+        # Check if the length of the debug_list is equal to 2.
         self.assertEqual(len(debug_list), 2)
+
+        # Check if the '@I7@' and '@I22@' individual IDs are in the debug_list.
         self.assertIn('@I7@', debug_list)
         self.assertIn('@I22@', debug_list)
+
 
 if __name__ == '__main__':
     unittest.main(exit=False, verbosity=2)
