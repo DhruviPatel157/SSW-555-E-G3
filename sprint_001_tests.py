@@ -90,6 +90,8 @@ class GedTestUS05Test(unittest.TestCase):
             r'./GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=False)
         debug_list = sprint4.us05_marriage_before_death(debug=True)
         self.assertNotIn("@I82@", debug_list)
+
+
 class Gedcom_US_07_Test(unittest.TestCase):
 
     def test_1_us07_less_than_150_years_old(self):

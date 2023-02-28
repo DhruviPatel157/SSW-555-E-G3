@@ -10,6 +10,7 @@ import collections
 from prettytable import PrettyTable
 
 
+
 class GedcomTree:
     """ GEDCOM Tree class to process and store data from GEDCOM files """
 
@@ -1190,107 +1191,3 @@ class Individual:
 
         return [self.indi_id, self.name, self.sex, self.birth_date.strftime("%Y-%m-%d"), self.age, self.alive,
                 self.death_date.strftime("%Y-%m-%d") if self.death_date else 'NA', self.fam_c, self.fam_s]
-
-
-def sprint_001_main(filename=None):
-    scrum = GedcomTree(r'GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=True, write=False)
-    scrum.us04_marriage_before_divorce()
-    scrum.us05_marriage_before_death()
-    scrum.us19_first_cousins_should_not_marry()
-    scrum.us42_reject_illegitimate_dates()
-    scrum.us23_unique_name_and_birth_date()
-    scrum.us07_less_than_150_years_old()
-    scrum.us11_no_bigamy()
-    scrum.us40_include_input_line_numbers(pt=True)
-    scrum.us01_dates_before_current_date()
-    scrum.us02_birth_before_marriage()
-
-    for error in scrum.error_log:
-        print(error)
-
-    if filename:
-        try:
-            fp = open(filename, 'a')
-        except FileNotFoundError:
-            print("Can't Open!")
-        else:
-            with fp:
-                fp.write("Sprint 1 Results\n")
-                scrum = GedcomTree(r'GEDCOM_files/Sprint_001_test_GEDCOM.ged', pt=False, write=True)
-                scrum.us04_marriage_before_divorce()
-                scrum.us05_marriage_before_death()
-                scrum.us19_first_cousins_should_not_marry()
-                scrum.us42_reject_illegitimate_dates()
-                scrum.us23_unique_name_and_birth_date()
-                scrum.us07_less_than_150_years_old()
-                scrum.us11_no_bigamy()
-                scrum.us40_include_input_line_numbers(write=True)
-
-                for i in scrum.write_to_file:
-                    for content in i:
-                        fp.write(f'{str(content)}\n')
-
-                fp.write("Sprint 1 Error Log\n")
-
-                for errors in scrum.error_log:
-                    fp.write(f'{errors}\n')
-
-                fp.write('\n')
-
-def sprint_002_main(filename=None):
-
-        scrum = GedcomTree(r'./GEDCOM_files/Sprint2_test_GEDCOM.ged', pt=True, write=False)
-        scrum.us25_unique_first_names_inFamilies()
-        scrum.us18_siblings_should_not_marry()
-        scrum.us02_birth_before_marriage()
-        scrum.us03_birth_before_death()
-        scrum.us29_list_deceased(pt=True)
-        scrum.us10_marry_after_14()
-        scrum.us24_unique_families_by_spouse()
-        scrum.us39_list_upcoming_anniversaries(pt=True)
-
-        for error in scrum.error_log:
-            print(error)
-
-        if filename:
-            try:
-                fp = open(filename, 'a')
-            except FileNotFoundError:
-                print("Can't Open!")
-            else:
-                with fp:
-                    fp.write("Sprint 3 Results\n")
-                    scrum = GedcomTree(r'./GEDCOM_files/Sprint3_test_GEDCOM.ged', pt=False, write=True)
-                    scrum.us25_unique_first_names_inFamilies()
-                    scrum.us18_siblings_should_not_marry()
-                    scrum.us02_birth_before_marriage()
-                    scrum.us03_birth_before_death()
-                    scrum.us29_list_deceased(write=True)
-                    scrum.us10_marry_after_14()
-                    scrum.us24_unique_families_by_spouse()
-                    scrum.us39_list_upcoming_anniversaries(write=True)
-
-                    for i in scrum.write_to_file:
-                        for content in i:
-                            fp.write(f'{str(content)}\n')
-
-                    fp.write("Sprint 3 Error Log\n")
-
-                    for errors in scrum.error_log:
-                        fp.write(f'{errors}\n')
-
-                    fp.write('\n')
-
-
-
-
-if __name__ == "__main__":
-    # sprint1_main(r'./test_results/sprint4_results.txt')
-    # sprint2_main(r'./test_results/sprint4_results.txt')
-    sprint_002_main(r'./test_results/sprint4_results.txt')
-    # sprint_001_main(r'./test_results/sprint4_results.txt')
-    # sprint1_main()
-    # sprint2_main()
-    # sprint3_main()
-    # sprint_001_main()
-    sprint_002_main()
