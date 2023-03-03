@@ -430,10 +430,10 @@ class GedcomTree:
                             if (individual.full_name["firstName"], individual.birth_date) not in check_child:
                                 check_child.append((individual.full_name["firstName"], individual.birth_date))
                             else:
-                                error_string = f"Child with id {child} has the same name and birth date as another child in the family."
                                 self.log_error("ERROR", "FAMILY", "US25", family.line_number["CHIL"][0][1],
                                                family.fam_id,
-                                               error_string)
+                                               f"Child with id {child} has the same name and birth date as another child in the family.")
+                                debug_list.append(family.fam_id)
 
         if debug:
             return debug_list

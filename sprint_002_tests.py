@@ -9,7 +9,7 @@ class GedcomTreeTest(unittest.TestCase):
     def test_us25_unique_first_names_inFamilies(self):
         """ Check if User Story 25 works properly """
 
-        sprint3 = GedcomTree(r'GEDCOM_files/Sprint_002_test_GEDCOM.ged')
+        sprint3 = GedcomTree(r'./GEDCOM_files/Sprint_002_test_GEDCOM.ged')
         debug_list = sprint3.us25_unique_first_names_inFamilies(debug=True)
         self.assertEqual(len(debug_list), 2)
         self.assertIn('@F8@', debug_list)
