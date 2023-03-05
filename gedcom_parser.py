@@ -1,5 +1,5 @@
 """
-Authors: Mrunal Salvi, David Ovsiew, Vineet Singh, Weihan Xu
+Authors: JD , DP , AS , JM
 SSW 555
 Analysing GEDCOM Data
 """
