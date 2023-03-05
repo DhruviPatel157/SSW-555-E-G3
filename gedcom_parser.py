@@ -569,20 +569,6 @@ class GedcomTree:
         if debug:
             return debug_list
 
-        # for individual in self.individuals.values():
-        #     if individual.fam_s is not 'NA':
-        #         indivi_list = []
-
-        #         for family in self.families.values():
-        #             if individual.birth_date < family.marriage_date:
-        #                 indivi_list.append(individual)
-        #                 break
-
-        #             elif family.marriage_date < individual.birth_date:
-        #                 self.log_error("ERROR", "INDIVIDUAL", "US02", individual.line_number["INDI"], individual.indi_id, f"Individual with id {individual.indi_id} was born on {individual.birth_date.strftime(GedcomTree.date_format)} and got married on {family.marriage_date.strftime(GedcomTree.date_format)}")
-        #                 debug_list.append(individual.indi_id)
-        #                 break
-
     def us03_birth_before_death(self, debug=False):
         """ User Story 03 - Birth Before Death """
 
@@ -597,10 +583,6 @@ class GedcomTree:
 
         if debug:
             return debug_list
-
-            # elif individual.death_date < individual.birth_date:
-            #     self.log_error("ERROR", "INDIVIDUAL", "US03", individual.line_number["INDI"], individual.indi_id, f"Individual with id {individual.indi_id} was born on {individual.birth_date.strftime(GedcomTree.date_format)} and died on {individual.death_date.strftime(GedcomTree.date_format)}")
-            #     debug_list.append(individual.indi_id)
 
     def us29_list_deceased(self, pt=False, debug=False, write=False):
         ''' User story 29 list all the dead individuals'''
@@ -625,7 +607,7 @@ class GedcomTree:
             self.write_to_file.append([deceased_header, deceased_table])
 
     def us10_marry_after_14(self, debug=False):
-        '''User story 10, should married after age 14'''
+        """User story 10, should married after age 14"""
 
         debug_list = []
         for individual in self.individuals.values():
