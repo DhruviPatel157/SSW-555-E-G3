@@ -489,23 +489,8 @@ class GedcomTree:
         if debug:
             return debug_list
 
-        #     if [husband.name, wife.name, marriage_dt] in holding:
-        #         repeated_family_list.append([family.fam_id, family.marriage_date, family.divorce_date,
-        #                                           husband.name, family.husband, wife.name, family.wife, family.children])
-        #         debug_list.append(family.fam_id)
-
-        # repeated_family_table = self.pretty_print(Family.table_header, repeated_family_list)
-
-        # if pt:
-        #     print(f'Repeated families: \n{repeated_family_table}')
-
-        # if write:
-        #     header = "Repeated Family:"
-        #     self.write_to_file.append([header, repeated_family_table])
-
     def us39_list_upcoming_anniversaries(self, pt=False, debug=False, write=False):
-        """ User Story 39 - List all living couples in a GEDCOM file whose marriage anniversaries
-            occur in the next 30 days """
+
 
         upcoming_ann_list = []
         debug_list = []
