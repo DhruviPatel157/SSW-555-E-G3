@@ -172,3 +172,4 @@ ANOMALY: INDIVIDUAL: US10: 427: @I22@: Individual id whose name is Aditya /Salvi
 ERROR: FAMILY: US24: 459: @F15@: Family with id @F15@ is a duplicate family record.
 
 Process finished with exit code 0
+f

@@ -2,7 +2,7 @@ from gedcom_parser import GedcomTree
 
 
 def sprint_002_main(filename=None):
-    scrum = GedcomTree(r'../GEDCOM_files/Sprint2_test_GEDCOM.ged', pt=True, write=False)
+    scrum = GedcomTree(r'../GEDCOM_files/Sprint_002_test_GEDCOM.ged', pt=True, write=False)
     scrum.us25_unique_first_names_inFamilies()
     scrum.us18_siblings_should_not_marry()
     scrum.us02_birth_before_marriage()
